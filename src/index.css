@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #FFFFFF;
+  background: #23252C;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  width: 317px;
+  height: 780px;
+  background: #1A1B21;
+  text-align: center;
+  border-radius: 1em;
+  overflow: hidden;
+}
