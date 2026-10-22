@@ -16,6 +16,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 main {
   width: 317px;
   height: 780px;
@@ -23,4 +27,66 @@ main {
   text-align: center;
   border-radius: 1em;
   overflow: hidden;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info > img {
+  margin: 0 0 1.313em 0;
+}
+
+.info > h1 {
+  font-size: 1.563rem;
+  margin: 0 0 0.08em 0;
+}
+
+.info > p {
+  font-size: 0.80rem;
+  font-weight: 300;
+  color: #F3BF99;
+  margin: 0 0 0.859em 0;
+}
+
+.info .personal-website {
+  font-size: 0.64rem;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin: 0 0 1.758em 0;
+}
+
+.info .contact {
+  display: flex;
+  gap: 1em;
+}
+
+.info .contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 0.875rem;
+  line-height: 1.143em;
+  border-radius: 0.429em;
+}
+
+.info .contact-link img {
+  width: 16px;
+  height: 16px;
+}
+
+.info .mail {
+  font-weight: 500;
+  color: #374151;
+  background: #FFFFFF;
+  padding: 0.563em 1.781em 0.563em 1.656em;
+}
+
+.info .linkedin {
+  font-weight: 400;
+  color: #FFFFFF;
+  background: #5093E2;
+  padding: 0.563em 1.125em 0.563em 1em;
 }
