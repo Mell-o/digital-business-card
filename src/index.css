@@ -21,18 +21,19 @@ a {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 317px;
   height: 780px;
   background: #1A1B21;
-  text-align: center;
   border-radius: 1em;
   overflow: hidden;
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-bottom: 33px;
+  text-align: center;
 }
 
 .info > img {
@@ -61,6 +62,7 @@ main {
 
 .info .contact {
   display: flex;
+  justify-content: center;
   gap: 1em;
 }
 
@@ -90,4 +92,26 @@ main {
   color: #FFFFFF;
   background: #5093E2;
   padding: 0.563em 1.125em 0.563em 1em;
+}
+
+.card-details {
+  text-align: left;
+  width: 247px;
+}
+
+.card-details > h2 {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card-details > p {
+  margin: 0;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+
+.about > p {
+  margin: 0 0 27px 0;
 }
