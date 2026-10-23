@@ -25,7 +25,6 @@ main {
   flex-direction: column;
   align-items: center;
   width: 317px;
-  height: 780px;
   background: #1A1B21;
   border-radius: 1em;
   overflow: hidden;
@@ -116,6 +115,23 @@ main {
   margin-bottom: 18px;
 }
 
-.interest > p {
-  margin-bottom: 24px;
+.interests > p {
+  margin-bottom: 36px;
+}
+
+.card-footer {
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  background: #161619;
+}
+
+.card-footer a:not(:last-child) {
+  margin-right: 24px;
+}
+
+.card-footer img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
 }
