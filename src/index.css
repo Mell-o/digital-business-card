@@ -113,5 +113,9 @@ main {
 }
 
 .about > p {
-  margin: 0 0 27px 0;
+  margin-bottom: 18px;
+}
+
+.interest > p {
+  margin-bottom: 24px;
 }
