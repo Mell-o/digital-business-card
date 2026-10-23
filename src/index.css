@@ -28,6 +28,7 @@ main {
   background: #1A1B21;
   border-radius: 1em;
   overflow: hidden;
+  box-shadow: 0 4px 4px 0 black;
 }
 
 .info {
